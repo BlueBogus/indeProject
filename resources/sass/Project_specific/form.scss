@@ -1,0 +1,88 @@
+.form-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form, #register-form, #cart-form, #create-form, #order-form, #edit-form {
+    button {
+        color: white;
+        padding: 5px;
+        background: #1d2124;
+        border: none;
+        border-radius: 6px;
+        transition: 0.2s;
+    }
+
+    select {
+        padding: 5px;
+        border-radius: 6px;
+        background-color: #6c757d;
+        color: white;
+        border: none;
+    }
+
+    button:hover {
+        transition: 0.2s;
+        color: #6c757d;
+    }
+}
+
+#login-form, #register-form {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+
+    form {
+        input, input:focus {
+            border-radius: 6px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+        }
+
+        a:hover {
+            color: #6c757d;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+}
+
+#cart-form, #create-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+#create-form, #edit-form {
+    flex-direction: column;
+
+    label {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+
+        span {
+            margin-right: 10px;
+        }
+
+        input {
+            color: white;
+            background-color: #6c757d;
+            border: none;
+            padding: 5px;
+            border-radius: 6px;
+        }
+    }
+
+}

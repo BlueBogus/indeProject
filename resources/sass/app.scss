@@ -1,0 +1,15 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Project specific SASS
+@import 'Project_specific/catalog';
+@import 'Project_specific/form';
+@import 'Project_specific/table';
+@import 'Project_specific/nav';
+@import 'Project_specific/general';

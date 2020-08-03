@@ -1,0 +1,48 @@
+.shoe-table {
+    display: grid;
+    grid: 1fr / auto-flow;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.shoe-outer {
+    transition: 0.2s;
+
+    .shoe-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            margin: 0;
+            text-align: center;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            transition: 0.2s;
+        }
+
+        .shoe-name {
+            font-size: 1.4rem;
+            margin-bottom: 0;
+        }
+
+        .shoe-name, .price {
+            color: white;
+        }
+    }
+}
+
+.shoe-outer:hover {
+    padding: 0 5px;
+    transition: 0.2s;
+
+    img {
+        width: 215px;
+        height: 215px;
+        transition: 0.2s;
+    }
+}
